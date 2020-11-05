@@ -7,7 +7,7 @@ public class main {
     public static void main(String[] args) {
 
         try {
-            File myObj = new File("C:\\Users\\dimasio\\Desktop\\expr.txt");
+            File myObj = new File("three_expressions.txt");
             Scanner myReader = new Scanner(myObj);
             while (myReader.hasNextLine()) {
                 String data = myReader.nextLine();
